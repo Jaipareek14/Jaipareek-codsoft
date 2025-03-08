@@ -1,55 +1,41 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #007BFF;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-main {
+h1 {
+    margin: 0;
+}
+
+section {
     padding: 20px;
+    margin: 20px;
 }
 
-.features {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
 }
 
-.feature-item {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 30%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.cta {
-    text-align: center;
-    margin: 20px 0;
-}
-
-button {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #218838;
+.project {
+    margin-bottom: 20px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
